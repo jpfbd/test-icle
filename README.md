@@ -43,8 +43,8 @@ sudo npm explore npm -g -- npm install node-gyp@latest # Update node-gyp
 2. Using your API key and the mnemonic for your Metamask wallet (make sure you're using a Metamask seed phrase that you're comfortable using for testing purposes), run:
 
 ```
-export ALCHEMY_KEY="<your_alchemy_project_id>"
-export MNEMONIC="<metmask_mnemonic>"
+export ALCHEMY_KEY="<KuzsY-yXtRh5WE9E2udXo80aw-2kpgb7>"
+export MNEMONIC="<pig moral reform cargo oil captain marble such bulb expand possible student>"
 DEPLOY_CREATURES_SALE=1 yarn truffle deploy --network rinkeby
 ```
 
