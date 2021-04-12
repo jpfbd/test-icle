@@ -8,9 +8,9 @@ import "openzeppelin-solidity/contracts/ownership/Ownable.sol";
  * Creature - a contract for my non-fungible creatures.
  */
 contract Creature is ERC721Tradable {
-    constructor(address _proxyRegistryAddress)
+    constructor(0xe938aC38A1017622d85a4E69697E05c5E7d94b90)
         public
-        ERC721Tradable("Creature", "OSC", _proxyRegistryAddress)
+        ERC721Tradable("Creature", "OSC", 0xe938aC38A1017622d85a4E69697E05c5E7d94b90)
     {}
 
     function baseTokenURI() public pure returns (string memory) {
